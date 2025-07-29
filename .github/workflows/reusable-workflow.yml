@@ -17,3 +17,4 @@ jobs:
       - name: Output the input value
         run: |
           echo "The node version to use is: ${{ inputs.node }}"
+          echo "Add other actions to build, test, and deploy to your project."
